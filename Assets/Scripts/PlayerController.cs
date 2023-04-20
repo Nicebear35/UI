@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -52,7 +50,6 @@ public class PlayerController : MonoBehaviour
         Damaged?.Invoke();
     }
 
-    [System.Obsolete]
     public void Heal()
     {
         var particleColor = _particleSystem.colorOverLifetime;
